@@ -1,20 +1,22 @@
 {
-  "name": "wyattf.dev",
+  "name": "bulma-theme-boilerplate",
   "version": "1.0.0",
+  "repository": "https://github.com/wyattferguson/bulma-theme-boilerplate",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build ./src/*.html"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bulma": "^0.8.2"
+    "bulma": "^0.8.2",
+    "prettier": "^2.0.5"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
+    "posthtml-modules": "^0.6.0",
     "sass": "^1.26.3"
   }
 }
