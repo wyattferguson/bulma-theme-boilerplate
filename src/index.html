@@ -10,90 +10,79 @@
 	</head>
 
 	<body>
-		<div class="app">
-				<div class="container">
-          <div class="column is-8 is-offset-2">
-            <h1 class="is-size-1 title">Heading 1</h1>
-            <h2 class="is-size-2 title">Heading 2</h2>
-            <h3 class="is-size-3 title">Heading 3</h3>
-            <h4 class="is-size-4 title">Heading 4</h4>
-            <p class="subtitle">
-              Paragraph tag - Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Quia eum maxime amet <a href="#">This is a link</a> totam
-              molestiae magnam nam eos error hic porro.
-              <strong>Something super bold!</strong>
-            </p>
-            <ul>
-              <li>List Item 1</li>
-              <li>List Item 2</li>
-              <li>List Item 3</li>
-              <li>List Item 4</li>
-            </ul>
-          </div>
+		<nav class="container">
+			<span id="logo">{PALMTREE}</span>
+		</nav>
+		<div id="intro" class="section">
+			<div class="container-medium">
+				<div class="row">
+					<h1 class="text-huge">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+						corrupti neque iure repudiandae fugiat necessitatibus esse quod
+						quisquam possimus excepturi.
+					</h1>
+				</div>
+			</div>
+		</div>
 
-          <div class="column is-8 is-offset-2">
-            <div class="field">
-              <label class="label">Username</label>
-              <div class="control has-icons-left has-icons-right">
-                <input
-                  class="input is-success"
-                  type="text"
-                  placeholder="Text input"
-                  value="bulma"
-                />
-                <span class="icon is-small is-left">
-                  <i class="fas fa-user"></i>
-                </span>
-                <span class="icon is-small is-right">
-                  <i class="fas fa-check"></i>
-                </span>
-              </div>
-              <p class="help is-success">This username is available</p>
-            </div>
+		<div id="posts" class="container">
+			<div class="row">
+				<div class="col-6 p-big">
+					<img src="./assets/img/blog1-min.png" alt="Post 1" />
+					<h3>Macbook Pro 2020</h3>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+				<div class="col-6 p-big">
+					<img src="./assets/img/blog2-min.png" alt="Post 2" />
+					<h3>Holiday Inn</h3>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+				<div class="col-6 p-big">
+					<img src="./assets/img/blog3-min.png" alt="Post 3" />
+					<h3>Man with the Golden Gun</h3>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+				<div class="col-6 p-big">
+					<img src="./assets/img/blog4-min.png" alt="Post 4" />
+					<h3>Cool Local Brewery</h3>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+				<div class="col-6 p-big">
+					<img src="./assets/img/blog5-min.png" alt="Post 5" />
+					<h3>Sawdust City</h3>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+				<div class="col-6 p-big">
+					<img src="./assets/img/blog6-min.png" alt="Post 6" />
+					<h3>From Russia With Love</h3>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+			</div>
+		</div>
 
-            <div class="field">
-              <label class="label">Subject</label>
-              <div class="control">
-                <div class="select">
-                  <select>
-                    <option>Select dropdown</option>
-                    <option>With options</option>
-                  </select>
-                </div>
-              </div>
-            </div>
+		<div id="outro" class="section bg-gray-light">
+			<div class="container-medium">
+				<div class="col-12">
+					<h2 class="text-huge">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Perspiciatis pariatur quia, neque incidunt accusantium mollitia
+						corrupti illum.
+					</h2>
+				</div>
+				<div class="col-8">
+					<form action="">
+						<div class="input input-fullWidth">
+							<input id="email" placeholder="Your Email" type="email" />
+						</div>
+						<div class="input input-fullWidth">
+							<input id="name" placeholder="Your Name" type="text" />
+						</div>
+						<div class="textarea textarea-fullWidth">
+							<textarea id="message"></textarea>
+						</div>
 
-            <div class="field">
-              <div class="control">
-                <label class="checkbox">
-                  <input type="checkbox" />
-                  I agree to the <a href="#">terms and conditions</a>
-                </label>
-              </div>
-            </div>
-
-            <div class="field">
-              <div class="control">
-                <label class="radio">
-                  <input type="radio" name="question" />
-                  Yes
-                </label>
-                <label class="radio">
-                  <input type="radio" name="question" />
-                  No
-                </label>
-              </div>
-            </div>
-
-            <div class="field is-grouped">
-              <div class="control">
-                <button class="button is-link">Submit</button>
-              </div>
-              <div class="control">
-                <button class="button is-link is-light">Cancel</button>
-              </div>
-            </div>
-          </div>
+						<button type="submit" class="button">Contact Us</button>
+					</form>
 				</div>
 			</div>
 		</div>

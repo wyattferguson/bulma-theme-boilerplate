@@ -1,80 +1,231 @@
-// Colors
-$black: hsl(0, 0%, 4%);
-$black-bis: hsl(0, 0%, 7%);
-$black-ter: hsl(0, 0%, 14%);
+/**
+ *  SETTINGS
+ */
 
-$grey-darker: hsl(0, 0%, 21%);
-$grey-dark: hsl(0, 0%, 29%);
-$grey: hsl(0, 0%, 48%);
-$grey-light: hsl(0, 0%, 71%);
-$grey-lighter: hsl(0, 0%, 86%);
-$grey-lightest: hsl(0, 0%, 93%);
+// colors
+$c-white: #fff;
+$c-black: #000;
+$c-success: #4caf50;
+$c-info: #5bc0de;
+$c-warning: #f0ad4e;
+$c-error: #e74c3c;
+$c-gray: #969da6;
+$c-gray-light: #eceff1;
 
-$white-ter: hsl(0, 0%, 96%);
-$white-bis: hsl(0, 0%, 98%);
-$white: hsl(0, 0%, 100%);
+$c-primary: #03a9f4;
+$c-secondary: #e91e63;
+$c-dark: #18232f;
+$c-light: $c-gray-light;
 
-$orange: hsl(14, 100%, 53%);
-$yellow: hsl(48, 100%, 67%);
-$green: hsl(141, 53%, 53%);
-$turquoise: hsl(171, 100%, 41%);
-$cyan: hsl(204, 71%, 53%);
-$blue: hsl(217, 71%, 53%);
-$purple: hsl(271, 100%, 71%);
-$red: hsl(348, 86%, 61%);
+$c-text: #272727;
+$c-link: $c-primary;
+$c-link-hover: rgba($c-primary, 0.8);
+
+$bgc-body: $c-white;
+
+$c-map: (
+	"primary": $c-primary,
+	"dark": $c-dark,
+	"secondary": $c-secondary,
+	"white": $c-white,
+	"success": $c-success,
+	"info": $c-info,
+	"warning": $c-warning,
+	"error": $c-error,
+	"gray": $c-gray,
+	"gray-light": $c-gray-light
+);
+
+// Shadows
+$bxsh-base: 0 0 5px rgba(0, 0, 0, 0.2);
+$bxsh-medium: $bxsh-base;
 
 // Typography
-$family-sans-serif: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto",
-	"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-	"Helvetica", "Arial", sans-serif;
-$family-monospace: monospace;
-$render-mode: optimizeLegibility;
+$fw-light: 300;
+$fw-normal: 400;
+$fw-bold: 600;
+$fw-headings: $fw-light;
 
-$size-1: 3rem;
-$size-2: 2.5rem;
-$size-3: 2rem;
-$size-4: 1.5rem;
-$size-5: 1.25rem;
-$size-6: 1rem;
-$size-7: 0.75rem;
+$ff-base: "Lato", sans-serif;
+$fw-base: 400;
+$fz-base: 16px;
+$lh-base: 1.5em;
 
-$weight-light: 300;
-$weight-normal: 400;
-$weight-medium: 500;
-$weight-semibold: 600;
-$weight-bold: 700;
+$fz-huge: 36px;
+$fz-big: 24px;
+$fz-medium: $fz-base;
+$fz-small: 12px;
 
-// Spacing
-$block-spacing: 1.5rem;
+$lh-huge: 1.3em;
+$lh-big: 1.3em;
+$lh-medium: $lh-base;
+$lh-small: 1.3em;
 
-// Responsiveness
-// The container horizontal gap, which acts as the offset for breakpoints
-$gap: 32px;
-// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
-$tablet: 769px;
-// 960px container + 4rem
-$desktop: 960px + (2 * $gap);
-// 1152px container + 4rem
-$widescreen: 1152px + (2 * $gap);
-$widescreen-enabled: true;
-// 1344px container + 4rem
-$fullhd: 1344px + (2 * $gap);
-$fullhd-enabled: true;
+// Body
+$c-body: $c-text;
+$ff-body: $ff-base;
+$fz-body: $fz-base;
+$fw-body: $fw-base;
+$lh-body: $lh-base;
 
-// Miscellaneous
-$easing: ease-out;
-$radius-small: 2px;
-$radius: 4px;
-$radius-large: 6px;
-$radius-rounded: 290486px;
-$speed: 86ms;
+// Border
+$bdc-base: #d5d9db;
+$bd-medium: 1px solid $bdc-base;
+$bdr-base: 3px;
+$bdr-medium: $bdr-base;
+$bdr-rounded-corners: 5px;
 
-// Sections
-$section-padding: 3rem 1.5rem;
-$section-padding-medium: 9rem 1.5rem;
-$section-padding-large: 18rem 1.5rem;
+// Defaults (HTML elements)
+$fw-strong: $fw-bold;
+$mb-p: 1.5em;
+$mb-ul: 1em;
+$mb-li: 0.5em;
 
-$hero-body-padding: 3rem 1.5rem;
-$hero-body-padding-small: 1.5rem;
-$hero-body-padding-medium: 9rem 1.5rem;
-$hero-body-padding-large: 18rem 1.5rem;
+// Margin
+$m-xsmall: 4px;
+$m-small: 8px;
+$m-medium: 16px;
+$m-big: 36px;
+$m-huge: 48px;
+
+// Padding
+$p-small: 4px;
+$p-medium: 8px;
+$p-big: 16px;
+$p-huge: 75px;
+
+// Layout
+$bgc-container: transparent;
+$mwi-container: 1400px;
+$mwi-container-medium: 900px;
+$mwi-container-small: 400px;
+$w-gutter: 24px;
+
+// Grid
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px
+);
+
+$grid-columns: 12;
+$grid-gutter-width: $w-gutter;
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1200px
+);
+
+/**
+ *  COMPONENTS
+ */
+
+// Badges
+$c-badge: $c-text;
+$c-badge-colored: $c-white;
+$bg-badge: $c-light;
+$bdr-badge: $bdr-medium;
+$lh-badge: 1.2em;
+$p-badge: $p-medium $p-big;
+$fz-badge-big: 1.3em;
+$fz-badge-small: 0.7em;
+$badges-color-map: (
+	primary: $c-primary,
+	secondary: $c-secondary,
+	dark: $c-dark,
+	light: $c-gray,
+	success: $c-success,
+	error: $c-error,
+	warning: $c-warning
+);
+
+// Buttons
+$bg-button: $c-primary;
+$c-button: $c-white;
+$c-button-transparent: $c-primary;
+$c-button-outlined: $c-primary;
+$bdc-button: $bg-button;
+$bd-button: 1px solid $bdc-button;
+$bdr-button: 200px;
+$ff-button: $ff-body;
+$fz-button: $fz-medium;
+$fw-button: $fw-bold;
+$lh-button: $lh-body;
+$m-button: 0 $m-small $m-medium $m-small;
+$p-button: $p-medium $p-big;
+$tt-button: uppercase;
+
+$fz-button-big: $fz-big;
+$p-button-big: $p-big $p-huge;
+
+$fz-button-small: $fz-small;
+$p-button-small: $p-small $p-big;
+
+// Forms
+$bgc-form: $c-light;
+$c-form: $c-text;
+$bdr-form: $bdr-medium;
+$bd-form: $bd-medium;
+$fz-form: $fz-body;
+$bgc-form-focus: lighten($bgc-form, 5%);
+$trs-form: background-color 0.2s ease-in-out;
+$c-form-placeholder: $c-dark;
+$mih-form-textarea: 120px;
+$p-form: $p-medium $p-big;
+$size-form-input-icon: 16px;
+$c-form-input-icon: $c-gray;
+$bd-form-error: 1px solid $c-error;
+$bgc-form-error: $bgc-form;
+
+// Notification
+$bdr-notification: $bdr-medium;
+$c-notification: $c-white;
+$mb-notification: $m-big;
+$p-notification: $p-big;
+
+// Paginator
+$mr-paginator-item: $m-xsmall;
+$bdr-paginator-item: $bdr-medium;
+$bg-paginator-item: $c-light;
+$c-paginator-item: $c-text;
+$bg-paginator-item-active: $c-primary;
+$c-paginator-item-active: $c-white;
+$p-paginator-item: $p-medium $p-big;
+
+// Table
+$bgc-table-header: $bgc-body;
+$bgc-table: $c-light;
+$bd-table: $bd-medium;
+$c-table-heading: $c-gray;
+$c-table-text: $c-text;
+$fw-table-heading: normal;
+$mwi-table: 100%;
+$p-table-cell: $p-medium;
+$p-table-heading: $p-medium;
+$w-table: 100%;
+$fz-table-heading: $fz-small;
+
+// Tabs
+$bdb-tabs-item-selected: 3px solid $c-primary;
+$bdb-tabs-item: 3px solid transparent;
+$bdb-tabs: $bd-medium;
+$c-tabs-item-hover: $c-primary;
+$c-tabs-item-selected: $c-primary;
+$c-tabs-item: $c-gray;
+$m-tabs-item: 0 $m-medium 0 0;
+$miw-tabs-item: 70px;
+$p-tabs-item: $p-big;
+
+// Tags
+$bg-tag-dot: $bgc-body;
+$bg-tag: $c-light;
+$bdr-tag: $bdr-medium 0 0 $bdr-medium;
+$c-tag: $c-text;
+$lh-tag: 16px;
+$m-tag: 0 $m-medium $m-medium 0;
+$p-tag: $p-medium;
+$size-tag-dot: 5px;
