@@ -1,5 +1,5 @@
 /**
- *  SETTINGS
+ *  COMPLETE LIST OF THEME VARIABLES
  */
 
 // colors
@@ -23,19 +23,6 @@ $c-link-hover: rgba($c-primary, 0.8);
 
 $bgc-body: $c-white;
 
-$c-map: (
-	"primary": $c-primary,
-	"dark": $c-dark,
-	"secondary": $c-secondary,
-	"white": $c-white,
-	"success": $c-success,
-	"info": $c-info,
-	"warning": $c-warning,
-	"error": $c-error,
-	"gray": $c-gray,
-	"gray-light": $c-gray-light
-);
-
 // Shadows
 $bxsh-base: 0 0 5px rgba(0, 0, 0, 0.2);
 $bxsh-medium: $bxsh-base;
@@ -46,6 +33,7 @@ $fw-normal: 400;
 $fw-bold: 600;
 $fw-headings: $fw-light;
 
+$ff-highlight: Georgia, Times, "Times New Roman", serif;
 $ff-base: "Lato", sans-serif;
 $fw-base: 400;
 $fz-base: 16px;

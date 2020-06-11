@@ -3,18 +3,18 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Complete Styles Page</title>
+		<title>Palm Tree Theme</title>
 		<meta name="description" content="page description" />
 		<script src="./app.js"></script>
 		<link rel="stylesheet" href="./assets/styles/styles.scss" />
 	</head>
 
 	<body>
-		<nav class="container">
-			<span id="logo">{PALMTREE}</span>
-		</nav>
 		<div id="intro" class="section">
 			<div class="container-medium">
+				<div class="logo aligner aligner--centerHoritzontal">
+					<img src="./assets/img/logo.svg" alt="Logo" />
+				</div>
 				<div class="row">
 					<h1 class="text-huge">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
@@ -28,63 +28,76 @@
 		<div id="posts" class="container">
 			<div class="row">
 				<div class="col-6 p-big">
-					<img src="./assets/img/blog1-min.png" alt="Post 1" />
-					<h3>Macbook Pro 2020</h3>
+					<a href=""><img src="./assets/img/blog1-min.png" alt="Post 1" /></a>
+					<h3>Live and Let Die</h3>
 					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 				</div>
 				<div class="col-6 p-big">
-					<img src="./assets/img/blog2-min.png" alt="Post 2" />
-					<h3>Holiday Inn</h3>
+					<a href=""><img src="./assets/img/blog2-min.png" alt="Post 2" /></a>
+					<h3>GoldenEye</h3>
 					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 				</div>
 				<div class="col-6 p-big">
-					<img src="./assets/img/blog3-min.png" alt="Post 3" />
+					<a href=""><img src="./assets/img/blog3-min.png" alt="Post 3" /></a>
 					<h3>Man with the Golden Gun</h3>
 					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 				</div>
 				<div class="col-6 p-big">
-					<img src="./assets/img/blog4-min.png" alt="Post 4" />
-					<h3>Cool Local Brewery</h3>
+					<a href=""><img src="./assets/img/blog4-min.png" alt="Post 4" /></a>
+					<h3>You Only Live Twice</h3>
 					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 				</div>
 				<div class="col-6 p-big">
-					<img src="./assets/img/blog5-min.png" alt="Post 5" />
-					<h3>Sawdust City</h3>
+					<a href=""><img src="./assets/img/blog5-min.png" alt="Post 5" /></a>
+					<h3>Diamonds Are Forever</h3>
 					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 				</div>
 				<div class="col-6 p-big">
-					<img src="./assets/img/blog6-min.png" alt="Post 6" />
+					<a href=""><img src="./assets/img/blog6-min.png" alt="Post 6" /></a>
 					<h3>From Russia With Love</h3>
 					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 				</div>
 			</div>
 		</div>
 
-		<div id="outro" class="section bg-gray-light">
+		<footer class="section bg-gray-light">
 			<div class="container-medium">
-				<div class="col-12">
+				<div class="row">
 					<h2 class="text-huge">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
 						Perspiciatis pariatur quia, neque incidunt accusantium mollitia
 						corrupti illum.
 					</h2>
 				</div>
-				<div class="col-8">
-					<form action="">
-						<div class="input input-fullWidth">
-							<input id="email" placeholder="Your Email" type="email" />
-						</div>
-						<div class="input input-fullWidth">
-							<input id="name" placeholder="Your Name" type="text" />
-						</div>
-						<div class="textarea textarea-fullWidth">
-							<textarea id="message"></textarea>
-						</div>
 
-						<button type="submit" class="button">Contact Us</button>
-					</form>
+				<div class="row">
+					<div class="contact-box col-8">
+						<form action="">
+							<div class="input input-fullWidth">
+								<input id="email" placeholder="Your Email" type="email" />
+							</div>
+							<div class="input input-fullWidth">
+								<input id="name" placeholder="Your Name" type="text" />
+							</div>
+							<div class="textarea textarea-fullWidth">
+								<textarea id="message"></textarea>
+							</div>
+
+							<button type="submit" class="button">Contact Us</button>
+						</form>
+					</div>
 				</div>
 			</div>
+		</footer>
+
+		<div
+			id="copyright"
+			class="aligner aligner--centerHoritzontal bg-gray-light"
+		>
+			<p>
+				<a href="">Palm Tree Theme</a> created with love by
+				<a href="https://twitter.com/wyattferguson">Wyatt Ferguson</a>
+			</p>
 		</div>
 	</body>
 </html>
