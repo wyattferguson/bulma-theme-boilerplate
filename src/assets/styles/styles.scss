@@ -29,6 +29,12 @@ html {
 }
 
 footer {
+	.social {
+		img:hover {
+			filter: invert(0.3) hue-rotate(320deg);
+		}
+	}
+
 	.contact-box {
 		padding: 0px;
 

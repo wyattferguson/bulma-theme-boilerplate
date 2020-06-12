@@ -1,23 +1,23 @@
 {
-  "name": "bulma-theme-boilerplate",
-  "version": "1.0.0",
-  "repository": "https://github.com/wyattferguson/bulma-theme-boilerplate",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "dev": "parcel src/index.html --open",
-    "build": "parcel build ./src/*.html"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "micromodal": "^0.4.6",
-    "prettier": "^2.0.5"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.4",
-    "posthtml-modules": "^0.6.0",
-    "sass": "^1.26.3",
-    "sierra-library": "^3.5.0"
-  }
+	"name": "bulma-theme-boilerplate",
+	"version": "1.0.0",
+	"repository": "https://github.com/wyattferguson/bulma-theme-boilerplate",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"dev": "parcel src/index.html --open",
+		"build": "parcel build src/index.html"
+	},
+	"author": "Wyatt Ferguson",
+	"license": "ISC",
+	"dependencies": {
+		"micromodal": "^0.4.6",
+		"prettier": "^2.0.5"
+	},
+	"devDependencies": {
+		"parcel-bundler": "^1.12.4",
+		"posthtml-modules": "^0.6.0",
+		"sass": "^1.26.3",
+		"sierra-library": "^3.5.0"
+	}
 }
