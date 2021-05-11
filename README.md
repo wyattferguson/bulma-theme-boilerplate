@@ -1,6 +1,6 @@
-# Bulma Theme Boilerplate
+# Sierra SCSS Framework Theme Boilerplate
 
-A completely bare bones basic theme template with only Bulma included as a style framework and parcel to make development and deployment super simple.
+A completely bare bones basic theme template with [Sierra SCSS Library](https://sierra-library.github.io/) and parcel to make development and deployment super simple.
 
 ## :wrench: Setup
 
@@ -28,14 +28,14 @@ this will compile all your files and content and ouput everything into the `/dis
 
 ## :postbox: Credit, Contact & Support
 
-Created by [Wyatt Ferguson](https://twitter.com/wyattferguson)
+Created by [Wyatt Ferguson](https://twitter.com/programmingsux)
 
-For any comments or questions your can reach me on Twitter [@wyattferguson](https://twitter.com/wyattferguson) or visit my little portfolio at [wyattf.dev](https://wyattf.dev)
+For any comments or questions your can reach me on Twitter [@programmingsux](https://twitter.com/programmingsux) or visit my little portfolio at [wyattf.dev](https://wyattf.dev)
 
 If you like my theme and want to support me
 
 ### [:coffee: Buy Me A Coffee](https://www.buymeacoffee.com/wyattferguson)
 
-### [:zap: Follow me on Twitter](https://twitter.com/wyattferguson)
+### [:zap: Follow me on Twitter](https://twitter.com/programmingsux)
 
 ### [:bus: Follow me on DEV.to](https://dev.to/wyattferguson)
